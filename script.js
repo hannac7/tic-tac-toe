@@ -1,3 +1,6 @@
+// Initial render
+DisplayController.render();
+
 // Gameboard Module
 const Gameboard = (() => {
     let board = ["", "", "", "", "", "", "", "", ""];
