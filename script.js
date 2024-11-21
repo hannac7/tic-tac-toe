@@ -1,7 +1,5 @@
-// Initial render
-DisplayController.render();
-
-// Gameboard Module
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Gameboard Module
 const Gameboard = (() => {
     let board = ["", "", "", "", "", "", "", "", ""];
 
@@ -121,3 +119,6 @@ const DisplayController = (() => {
     return { render, setMessage };
 })();
 
+    // Initial render
+    DisplayController.render();
+});

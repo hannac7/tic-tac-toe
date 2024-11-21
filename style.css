@@ -11,9 +11,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    gap: 5px;
-    width: 300px;
-    height: 300px;
+    gap: 4px;
     margin: 20px 0;
 }
 
@@ -26,6 +24,7 @@ body {
     font-size: 2rem;
     border: 1px solid #f8f5f5;
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 #controls {
