@@ -1,2 +1,3 @@
 # tic-tac-toe
-odin project assignment :3
+This tic tac toe game was coded with html, css and javascript for the odin project assignment :3
+
